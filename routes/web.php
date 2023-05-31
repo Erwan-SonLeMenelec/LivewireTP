@@ -18,3 +18,5 @@ Route::get('/', function () {
 });
 
 Route::redirect('/login', '/admin/login', 301)->name('login');
+
+
